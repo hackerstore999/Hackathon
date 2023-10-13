@@ -12,7 +12,7 @@ void loop()
 
   if (sensorState == HIGH) {
     digitalWrite(LED_BUILTIN, HIGH); // Turn on the LED
-    delay(10000); // Wait for 10 seconds (10000 milliseconds)
+    delay(5000); // Wait for 5 seconds (10000 milliseconds)
     digitalWrite(LED_BUILTIN, LOW); // Turn off the LED after 10 seconds
   } else {
     digitalWrite(LED_BUILTIN, LOW); // Turn off the LED if the sensor is not active
